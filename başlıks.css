@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+body {
+    background-color: #11171f;
+    font-family: Rubik, sans-serif !important;
+    height: auto;
+}
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #eee;
+}
+.navLogo {
+    position: relative;
+    top: 5px;
+    margin-right: 3vh;
+}
+.menuItem {
+    color: #fff !important;
+    transition-duration: 0.2s;
+}
+.bg-dark {
+    background-color: #080b0f !important;
+}
+.menuItem:focus,
+.menuItem:hover {
+    border-radius: 2px;
+    background-color:  #10151b !important;
+    transition-duration: 0.2s;
+}
+
+.hr {
+    border: 1px solid #202a3b44;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    z-index: 9999 !important;
+}
+@import url(https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css);
